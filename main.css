@@ -1,0 +1,88 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(185, 174, 109);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(185, 174, 109);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: #fff;
+    font-style: italic;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-escola, #produtos {
+    background-color: #f1f5d8;
+}
+
+.text-colored {
+    color: rgb(185, 174, 109);
+}
+
+.nav-produtos .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(185, 174, 109);
+    color: #fff;
+}
+
+.nav-produtos .nav-link:hover {
+    color: rgb(185, 174, 109);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#cursos h2 {
+    padding-top: 10px;
+}
+
+#produtos h2 {
+    padding-top: 10px;
+}
+
+#fale-conosco h2 {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+form button {
+    display: block;
+    width: 100px;
+    margin-bottom: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(185, 174, 109);
+    color: #fff;
+    padding: 16px 115px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

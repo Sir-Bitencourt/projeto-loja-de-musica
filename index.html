@@ -1,0 +1,373 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quinta Sinfonia | A sua loja de música</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" sizes="270x270" href="./imagens/icone musica.jpg" type="image/jpg" />
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-2" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Quinta Sinfonia</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block  d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-escola" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a empresa</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cursos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Cursos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-card-list me-1"></i>
+                            Produtos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-dots me-1"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-escola">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./imagens/Slides/Orquestra 1.jpg" class="d-block w-100" alt="Orquestra 1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/Slides/Orquestra 2.jpg" class="d-block w-100" alt="Orquestra 2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/Slides/Orquestra 3.jpg" class="d-block w-100" alt="Orquestra 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imagens/Orquestra.jpg" class="d-block w-100 rounded" alt="Foto de uma orquestra">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a empresa</span></h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non dolor illum ea, consectetur 
+                                voluptatum repellendus ipsum. Aspernatur officiis aut autem, debitis est error praesentium, 
+                                cupiditate, magnam in odit perspiciatis ullam?
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi animi quisquam non! Neque 
+                                consectetur asperiores dolorem ratione tempore commodi, illo, earum pariatur, doloribus 
+                                laborum corrupti? Voluptas explicabo illo culpa ipsa.
+                            </p>
+                            <p>Trabalhamos com</p>
+                            <ul>
+                                <br>
+                                <li>Aulas para aprendizado de instrumentos de sopro</li>
+                                <li>Aulas para aprendizado de instrumentos de cordas</li>
+                                <li>Aulas para aprendizado de órgão</li>
+                                <li>Aulas para aprendizado de canto</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="cursos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Nossos <span class="text-colored">cursos</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/Aulas/aula instrumentos.avif" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-music-note-list"></i>
+                            Aulas de instrumentos
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi alias 
+                            rerum deserunt molestiae enim porro ad provident, voluptas aperiam 
+                            consequatur amet ullam fugiat assumenda saepe cumque est? Fugiat, eum laboriosam.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/Aulas/aula orgao.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-book"></i>
+                            Aulas de Órgão
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi alias 
+                            rerum deserunt molestiae enim porro ad provident, voluptas aperiam 
+                            consequatur amet ullam fugiat assumenda saepe cumque est? Fugiat, eum laboriosam.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/Aulas/aula coral.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Aulas de canto
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi alias 
+                            rerum deserunt molestiae enim porro ad provident, voluptas aperiam 
+                            consequatur amet ullam fugiat assumenda saepe cumque est? Fugiat, eum laboriosam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">produtos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#instrumentos-de-sopro" class="fw-bold text-start nav-link text-colored active">Instrumentos de sopro</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#instrumentos-de-cordas" class="fw-bold text-start nav-link text-colored">Instrumentos de cordas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#orgaos" class="fw-bold text-start nav-link text-colored">Órgãos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="instrumentos-de-sopro">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Sopro/Bombardino.jpg" alt="Bomkbardino">
+                                        <h5 class="text-colored fw-bold mt-2">Bombardino</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Sopro/Clarinete.jpg" alt="Clarinete">
+                                        <h5 class="text-colored fw-bold mt-2">Clarinete</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Sopro/Clarone.png" alt="Clarone">
+                                        <h5 class="text-colored fw-bold mt-2">Clarone</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Sopro/Fagote.jpg" alt="Fagote">
+                                        <h5 class="text-colored fw-bold mt-2">Fagote</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Sopro/Flauta transversal.jpg" alt="Flauta transversal">
+                                        <h5 class="text-colored fw-bold mt-2">Flauta transversal</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Sopro/Flugelhorn.jpg" alt="Flugelhorn">
+                                        <h5 class="text-colored fw-bold mt-2">Flugelhorn</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Sopro/Sax tenor.jpg" alt="Sax tenor">
+                                        <h5 class="text-colored fw-bold mt-2">Sax tenor</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Sopro/Tuba.jpg" alt="Tuba">
+                                        <h5 class="text-colored fw-bold mt-2">Tuba</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="instrumentos-de-cordas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Cordas/Viola.jpg" alt="Viola">
+                                        <h5 class="text-colored fw-bold mt-2">Viola</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Cordas/Violino.jpg" alt="Violino">
+                                        <h5 class="text-colored fw-bold mt-2">Violino</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Cordas/Violoncelo 3_4.png" alt="Violoncelo 3/4">
+                                        <h5 class="text-colored fw-bold mt-2">Violoncelo 3/4</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Cordas/Violoncelo.jpg" alt="Violoncelo">
+                                        <h5 class="text-colored fw-bold mt-2">Violoncelo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="orgaos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Orgao/Orgao branco.jpg" alt="Órgão Branco">
+                                        <h5 class="text-colored fw-bold mt-2">Órgão Branco</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Orgao/Orgao claro.jpg" alt="Órgão Claro">
+                                        <h5 class="text-colored fw-bold mt-2">Órgão Claro</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Orgao/Orgao classico.jpg" alt="Órgão Clássico">
+                                        <h5 class="text-colored fw-bold mt-2">Órgão Clássico</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/Instrumentos/Orgao/Orgao preto.jpg" alt="Órgão Preto">
+                                        <h5 class="text-colored fw-bold mt-2">Órgão Preto</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" placeholder="Nome completo" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="e-mail" class="form-control" placeholder="email@email.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control" placeholder="(__) _____-____" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-index"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua da vitória Nº 321 - Bairro: Deus vai nos conceder - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container-footer">
+                <p>
+                    &copy; Quinta Sinfonia - Todos os direitos reservados - 2024
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
